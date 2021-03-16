@@ -1,4 +1,6 @@
 ﻿Public Class light
+
+
     Private mtipo_strumento As String
     Public mtipo_strumento_bool As Boolean
     Private mnome_strumento As String
@@ -1396,7 +1398,7 @@
                 mvalue8_bool = True
                 mvalue8 = value
                 Try
-                    Select mnome_strumento
+                    Select Case mnome_strumento
                         Case "max5"
                             ma4_enable = enable_ma(get_split_str(data(2))(0))
                     End Select
@@ -1424,7 +1426,7 @@
                 mvalue9_bool = True
                 mvalue9 = value
                 Try
-                    Select mnome_strumento
+                    Select Case mnome_strumento
                         Case "max5"
                             ma5_enable = enable_ma(get_split_str(data(2))(0))
                     End Select
