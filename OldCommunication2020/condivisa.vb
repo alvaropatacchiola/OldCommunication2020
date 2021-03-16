@@ -1,5 +1,6 @@
 ﻿Public Class condivisa
     Public Shared coda_comandi As Queue
+
     Public Shared Sub crea_coda()
         coda_comandi = New Queue()
     End Sub
