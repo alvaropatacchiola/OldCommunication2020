@@ -10,5 +10,6 @@
     Public Shared Function remove_comandi() As coppia
         Return coda_comandi.Dequeue()
     End Function
+    'daje
 
 End Class
